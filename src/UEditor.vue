@@ -44,12 +44,9 @@ export default {
             this.editor.setContent(this.defaultMsg)
         }
     },
-    mounted() {
+    created() {
         const _this = this;
-        this.editor = UE.getEditor(this.id, this.config);
-        this.editor.addListener('ready', function () {
-            _this.editor.setContent(_this.ueContent)
-        });
+        this.editor = UE.getEditor(this.id, this.config)
 
         // 监听内容区变化
         // 并实时修改ueContent值
