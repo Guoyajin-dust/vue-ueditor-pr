@@ -120,7 +120,12 @@
             align = findFocus("videoFloat","name");
         if(!url) return false;
         if ( !checkNum( [width, height] ) ) return false;
-        editor.execCommand('insertvideo');
+        editor.execCommand('insertvideo', {
+            url: convert_url(url),
+            width: width.value,
+            height: height.value,
+            align: align
+        }, isModifyUploadVideo ? 'upload':null);
     }
 
     /**
@@ -140,7 +145,7 @@
                 });
             }
         }
-        editor.execCommand('insertvideo');
+        editor.execCommand('insertvideo',videoObjs);
     }
 
     /**

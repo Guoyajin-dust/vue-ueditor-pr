@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <script :id=id type="text/plain"></script>
-    </div>
+    <div :id=id />
 </template>
 <style>
     @import './static/themes/default/css/ueditor.css';
@@ -44,8 +42,8 @@ export default {
             this.editor.setContent(this.defaultMsg)
         }
     },
-    created() {
-        const _this = this;
+    mounted() {
+        const _this = this
         this.editor = UE.getEditor(this.id, this.config)
 
         // 监听内容区变化
