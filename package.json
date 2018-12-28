@@ -1,48 +1,19 @@
 {
-  "_from": "vue-ueditor-ireader",
-  "_inBundle": false,
-  "_integrity": "sha1-nYqe9Sr3Rp5/z6NMvlkZxVmY48o=",
-  "_location": "/vue-ueditor-ireader",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "vue-ueditor-ireader",
-    "name": "vue-ueditor-ireader",
-    "escapedName": "vue-ueditor-ireader",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "http://registry.npm.taobao.org/vue-ueditor-ireader/download/vue-ueditor-ireader-0.0.5.tgz",
-  "_shasum": "9d8a9ef52af7469e7fcfa34cbe5919c55998e3ca",
-  "_spec": "vue-ueditor-ireader",
-  "_where": "e:\\WORK\\编辑器\\npm\\ireader\\src",
-  "author": "ireader",
-  "bugs": {
-    "url": "https://github.com/avajayam/vue-ueditor-ireader/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
-  "description": "A vue component wrapper for UEditor",
-  "homepage": "https://github.com/avajayam/vue-ueditor-ireader#readme",
-  "keywords": [
-    "ueditor",
-    "vue"
-  ],
-  "license": "ISC",
-  "main": "index.js",
   "name": "vue-ueditor-pr",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/avajayam/vue-ueditor-ireader.git"
-  },
+  "version": "1.0.0",
+  "description": "A vue component wrapper for UEditor.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.0.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guoyajin-dust/vue-ueditor-pr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guoyajin-dust/vue-ueditor-pr/issues"
+  },
+  "homepage": "https://github.com/Guoyajin-dust/vue-ueditor-pr#readme"
 }

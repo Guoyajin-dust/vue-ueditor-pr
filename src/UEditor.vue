@@ -20,7 +20,8 @@ export default {
     name: 'ue',
     data () {
         return {
-            editor: null
+            editor: null,
+            defaultMsg:this.ueContent
         }
     },
     model: {
@@ -39,8 +40,8 @@ export default {
         },
     },
     watch: {
-        ueContent() {
-            this.editor.setContent(this.ueContent)
+        defaultMsg() {
+            this.editor.setContent(this.defaultMsg)
         }
     },
     mounted() {
