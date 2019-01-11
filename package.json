@@ -1,6 +1,6 @@
 {
   "name": "vue-ueditor-pr",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A vue component wrapper for UEditor.",
   "main": "index.js",
   "scripts": {
