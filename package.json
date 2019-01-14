@@ -1,19 +1,45 @@
 {
-  "name": "vue-ueditor-pr",
-  "version": "1.0.5",
-  "description": "A vue component wrapper for UEditor.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "vue-ueditor-pr@^1.0.4",
+  "_id": "vue-ueditor-pr@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-4WJUPryRyFM0dWGPoJB9ArvBbWvwiQ+UgPTdxFIdfPPDqSKAa0Y7WXR936hDhv90L0ebI1Oa4K+tCIAFp+POnw==",
+  "_location": "/vue-ueditor-pr",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "vue-ueditor-pr@^1.0.4",
+    "name": "vue-ueditor-pr",
+    "escapedName": "vue-ueditor-pr",
+    "rawSpec": "^1.0.4",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.4"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-ueditor-pr/-/vue-ueditor-pr-1.0.5.tgz",
+  "_shasum": "4715fd18b9e140c6a5a80a7495b63170d0c11613",
+  "_spec": "vue-ueditor-pr@^1.0.4",
+  "_where": "E:\\WORK\\district\\district-media-cloud",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Guoyajin-dust/vue-ueditor-pr/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A vue component wrapper for UEditor.",
+  "homepage": "https://github.com/Guoyajin-dust/vue-ueditor-pr#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "vue-ueditor-pr",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Guoyajin-dust/vue-ueditor-pr.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Guoyajin-dust/vue-ueditor-pr/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/Guoyajin-dust/vue-ueditor-pr#readme"
+  "version": "1.0.5"
 }

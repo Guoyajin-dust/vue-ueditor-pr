@@ -623,6 +623,10 @@ div.edui-box {
     background-position: -500px 0;
 }
 
+.edui-default  .edui-for-link1 .edui-icon {
+    background-position: -500px 0;
+}
+
 .edui-default  .edui-for-code .edui-icon {
     background-position: -440px -40px;
 }
@@ -631,7 +635,15 @@ div.edui-box {
     background-position: -726px -77px;
 }
 
+.edui-default  .edui-for-insertimage1 .edui-icon {
+    background-position: -726px -77px;
+}
+
 .edui-default  .edui-for-insertframe .edui-icon {
+    background-position: -240px -40px;
+}
+
+.edui-default  .edui-for-insertframe1 .edui-icon {
     background-position: -240px -40px;
 }
 
@@ -640,6 +652,10 @@ div.edui-box {
 }
 
 .edui-default  .edui-for-spechars .edui-icon {
+    background-position: -240px 0;
+}
+
+.edui-default  .edui-for-spechars1 .edui-icon {
     background-position: -240px 0;
 }
 
@@ -663,6 +679,10 @@ div.edui-box {
     background-position: -520px -20px;
 }
 
+.edui-default  .edui-for-searchreplace1 .edui-icon {
+    background-position: -520px -20px;
+}
+
 .edui-default  .edui-for-map .edui-icon {
     background-position: -40px -40px;
 }
@@ -672,6 +692,9 @@ div.edui-box {
 }
 
 .edui-default  .edui-for-insertvideo .edui-icon {
+    background-position: -320px -20px;
+}
+.edui-default  .edui-for-insertvideo1 .edui-icon {
     background-position: -320px -20px;
 }
 
@@ -796,6 +819,10 @@ div.edui-box {
 }
 
 .edui-default  .edui-for-anchor .edui-icon {
+    background-position: -200px 0;
+}
+
+.edui-default  .edui-for-anchor1 .edui-icon {
     background-position: -200px 0;
 }
 
