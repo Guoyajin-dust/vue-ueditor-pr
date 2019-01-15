@@ -27,8 +27,6 @@ UE._customizeUI = {};
 
 UE.version = "1.4.3";
 
-UE.Vue = require('../../../Vue')
-
 var dom = UE.dom = {};
 
 // core/browser.js
