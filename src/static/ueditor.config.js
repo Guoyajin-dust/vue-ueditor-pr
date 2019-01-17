@@ -146,13 +146,14 @@
         'searchreplace1', // 自定义查找替换
         'link1', // 自定义超链接
         'anchor1', // 自定义锚点
-        'insertframe1' // 自定义插入Iframe
+        'insertframe1', // 自定义插入Iframe
+        'help1'
       ]
     ],
     //当鼠标放在工具栏上时显示的tooltip提示,留空支持自动多语言配置，否则以配置值为准
     labelMap:{
        'anchor':'', 'undo':'',
-       'insertvideo1':'插入视频', 'spechars1':'特殊字符','insertimage1':'多图上传','searchreplace1':'查询替换','link1':'超链接','anchor1':'锚点','insertframe1':'插入Iframe'
+       'insertvideo1':'插入视频', 'spechars1':'特殊字符','insertimage1':'多图上传','searchreplace1':'查询替换','link1':'超链接','anchor1':'锚点','insertframe1':'插入Iframe', 'help1':'帮助'
     }
 
     //语言配置项,默认是zh-cn。有需要的话也可以使用如下这样的方式来自动多语言切换，当然，前提条件是lang文件夹下存在对应的语言文件：
